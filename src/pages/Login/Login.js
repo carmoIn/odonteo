@@ -66,6 +66,7 @@ function Login() {
           Email:
           <input
             className='form-input'
+            data-testid='email'
             id='email'
             name='email'
             type='text'
@@ -76,6 +77,7 @@ function Login() {
           Senha:
           <input
             className='form-input'
+            data-testid='password'
             id='password'
             name='password'
             type='password'
@@ -85,6 +87,7 @@ function Login() {
         <Button
           addClassName='form-button'
           onClickFunction={makeLogin}
+          id='submit'
         >
           Entrar
         </Button>

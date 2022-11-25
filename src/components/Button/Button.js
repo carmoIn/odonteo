@@ -6,6 +6,7 @@ function Button({ onClickFunction, children, id, addClassName }) {
       type='button'
       className={`standard-button ${addClassName}`}
       onClick={onClickFunction}
+      data-testid={id}
       id={id}
     >
       { children }

@@ -103,6 +103,7 @@ function Main() {
         <label htmlFor='amount'>
           Quantia a receber:
           <input
+            data-testid='amount'
             id='amount'
             className='form-input'
             name='paymentAmount'
@@ -114,6 +115,7 @@ function Main() {
         <label htmlFor='installments'>
           Número de parcelas:
           <input
+            data-testid='installments'
             id='installments'
             className='form-input'
             name='numberOfInstallments'
@@ -125,6 +127,7 @@ function Main() {
         <label htmlFor='billing-day'>
           Dia do mês para cobrança:
           <input
+            data-testid='installments'
             id='billing-day'
             className='form-input'
             name='billingDay'
