@@ -127,7 +127,7 @@ function Main() {
         <label htmlFor='billing-day'>
           Dia do mês para cobrança:
           <input
-            data-testid='installments'
+            data-testid='billing-day'
             id='billing-day'
             className='form-input'
             name='billingDay'
@@ -140,6 +140,7 @@ function Main() {
         <label htmlFor='first-installment-date'>
           Data da primeira parcela:
           <input
+          data-testid='first-installment-date'
             id='first-installment-date'
             className='form-input date'
             name='firstInstallmentDate'
