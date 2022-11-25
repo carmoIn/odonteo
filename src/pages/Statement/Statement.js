@@ -63,6 +63,7 @@ function Statement() {
           Data de início:
           <input
             className='form-input date'
+            data-testid='beginning-date'
             id='beginning-date'
             name='beginningDate'
             type='date'
